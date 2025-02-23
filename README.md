@@ -1,15 +1,27 @@
 Caption generator using OpenAI API
 
-Quick demo:
-![](src/assets/introgifcapmeprj.gif)
+## Quick demo:
+<img src="src/assets/introgifcapmeprj.gif" alt="Demo GIF" style="max-width: 350px;" />
 
 
-git clone https://github.com/yourusername/captionmaption.git
+- Clone the repository:
+```
+    git clone https://github.com/yourusername/captionmaption.git
 cd captionmaption
+```
+- Install dependencies:
+```
 npm install
-Enter your OpenAI API key in the .env file
+```
+- Enter your OpenAI API key in the .env file
+```
+VITE_OPENAI_API_KEY=sk-proj-0123456789abcdef0123456789abcdef
+```
+- Run the app:
+```
 npm run dev
 Visit `http://localhost:3000` in your browser to see the app in action!
+```
 
 ## Features
 
