@@ -1,8 +1,22 @@
-# React + Vite
+Caption generator using OpenAI API
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Quick demo:
+![](src/assets/introgifcapmeprj.gif)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+git clone https://github.com/yourusername/captionmaption.git
+cd captionmaption
+npm install
+Enter your OpenAI API key in the .env file
+npm run dev
+Visit `http://localhost:3000` in your browser to see the app in action!
+
+## Features
+
+- **Image Upload**: Easily upload images for caption generation.
+- **Creative Caption Generation**: Utilize AI to generate engaging captions based on the content of the uploaded images.
+- **Responsive Design**: The app is fully responsive, ensuring a seamless experience across all devices.
+- **So many features in my mind**: Adjust the tone, re-generate the caption, and more.
+## License
+
+This project is licensed under the MIT License
